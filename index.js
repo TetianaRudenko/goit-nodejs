@@ -3,11 +3,11 @@ const contacts = require("./contacts");
 const { program } = require('commander');
 
 program
-  .option("-a, --action, <type>")
-  .option("-i, --id, <type>")
-  .option("-n, --name, <type>")
-  .option("-e, --email, <type>")
-  .option("-p, --phone, <type>");
+  .option("-a, --action, <type>", 'choose action')
+  .option("-i, --id, <type>", 'user id')
+  .option("-n, --name, <type>", 'user name')
+  .option("-e, --email, <type>", 'user email')
+  .option("-p, --phone, <type>", 'user phone');
 
 program.parse();
 
@@ -43,11 +43,6 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
 invokeAction(options);
 
 
-//invokeAction({ action: "list" })
-//invokeAction({ action: "getById", id: "vza2RIzNGIwutCVCs4mCL" });
-//invokeAction({ action: "add", name: "Anna", email: "Anna@gmail.com", phone: "5115-51" });
-//invokeAction({ action: "updateById", id: "qdggE76Jtbfd9eWJHrssH", name: "Chaim Lewis", email: "dui.in@ukr.net", phone: "(294) 840-6685" });
-//invokeAction({ action: "remove", id: "AeHIrLTr6JkxGE6SN-0Rw"});
 
 
 
