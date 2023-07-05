@@ -1,9 +1,11 @@
-# Cкріншоти виконання команд
+# goit-nodejs
 
-https://monosnap.com/list/64a5ad485b30722b63ccf9fe
+Домашнє завдання №1. Cкріншоти виконання команд:
 
-https://monosnap.com/list/64a5cb375b30722b63ccfbb3
+# action="read" https://monosnap.com/file/0GEpwvnzVnVMmEOX68Qo37vptXMHUu
 
-https://monosnap.com/list/64a5cb8755796af05c944506
+# action="get" https://monosnap.com/file/9TaccmzyASqgTvUesqFtpFlZMssnAo
 
-https://monosnap.com/list/64a5cb95de271575f943ea00
+# action="add" https://monosnap.com/file/F55554qCxKpA2qa9wSjwUTW2gxdwrS
+
+# action="remove" https://monosnap.com/file/PwDQFBXDR0b1jsZSjVl4kpZCstdlqX
